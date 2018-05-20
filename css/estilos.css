@@ -1,76 +1,43 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(menu.css);
-@import url(banner.css);
-@import url(blog.css);
-@import url(info.css);
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-
-}
-body{
-	font-family: 'Open Sans', sans-serif;
-}
-header{
-	width: 100%;
-	height: 8%;
-	background: #333;
+body {
+	background: #AFD2C8;
 	color: #fff;
-
-	position: fixed;
-	top: 0;
-	left:0;
-	z-index: 100;
 }
 
-.contenedor{
-	width: 98%;
-	margin: auto;
-}
-h1{
-	float: left;
-}
-header .contenedor{
-	display: table;
-}
-section{
-	width: 100%;
-	margin-bottom: 25px;
-}
-#bienvenidos{
-	text-align: center;
-}
-footer .contenedor{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding-bottom: 25px;
-}
-.copy{
-	font-size: 20px;
-}
-.sociales{
-	width: 100%;
-	text-align: center;
-	font-size:  28px;
-}
-.sociales a{
-	color: #333;
-	text-decoration: none;
+header {
+	background: #057958;
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
-@media (min-width: 768px){
-	.sociales{
-		width: auto;
-	}
-	footer .contenedor{
-		justify-content: space-between;
-	}
+.contenedor-main {
+margin-bottom: 20px;	
 }
 
-@media (min-width: 1024px){
-	.contenedor{
-		width: 1000px;
-	}
+
+main {
+	background: #21B54D;
+	color: #424242;
+	padding: 20px 0;
+}
+
+aside {
+	background: #24C7CA;
+	padding: 60px 0;
+	color: #0d47a1;
+}
+
+.widgets {
+	color: #424242;
+	margin-bottom: 20px;
+}
+
+.widgets > div {
+	background: #2196f3;
+	color: #fff;
+	padding: 20px;
+}
+
+footer {
+	padding: 20px 0;
+	background: #1e1e1e;
 }

@@ -28,17 +28,3 @@ margin-top: -5px;
 -o-transition: all 0.3s ease-in-out;
 transition: all 0.3s ease-in-out;
 }
-.menu{
-	background: #e3a9e8;                         
-	color: #3e0343;                               
-	padding: 20px;                              
-	margin-bottom: 20px;    
-	margin-top: 10px;    
-	margin: 10px;   
-}
-img.imagen{
-	width: 50%;
-	max-width: 60%;
-	height: auto;
-	transform: translateX(80%);
-}
