@@ -1,0 +1,33 @@
+footer {
+	background: #FCCFFA;
+	text-align: center;
+}
+
+footer p {
+	text-align: justify;
+	color: #058E8A;
+}
+
+footer h5 {
+	color: #60058A;
+}
+ul.redessociales li {
+	 display: inline-block;                                                                             
+}
+.logo {
+	background: #efb9ec;
+	padding: 5px;
+	width: 100px;
+	border: 20px;
+	border: 3px solid #2aa198;
+    border-radius: 50%;
+	height: 90px;
+	float: left;
+}
+ul.servicio li {
+	 display: inline-block;
+	 color: #058E8A;
+} 
+h3 {
+	color:#6C0D52;
+}
